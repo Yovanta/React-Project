@@ -110,6 +110,8 @@ function Home() {
       }
     });
     // setDataUpdate(newData);
+    console.log(newData);
+
     
   }
 
@@ -118,7 +120,7 @@ function Home() {
     const newData = dataQuery?.find((item) => item.id === id)
     ;
     console.log(newData)
-    // setDataUpdate(newData);
+//     setDataUpdate(newData);
   }
 
   return (
